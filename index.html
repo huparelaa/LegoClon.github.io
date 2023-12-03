@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superheroes</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <!-- Main content -->
+      <section class="container">
+        <nav class="navbar">
+          <div class="navbar__content">
+            <img src="https://i.ibb.co/MMmDPXN/lego.png" alt="logo" />
+            <ul>
+              <li><a href="#">EXCLUSIVOS</a></li>
+              <li><a href="#">NUEVOS</a></li>
+              <li><a href="#">GIFT CARDS</a></li>
+              <li><a href="#">FIND A STORE</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <section class="main-content">
+          <p>Diseña tu</p>
+          <h1>Súper Héroe!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            voluptates a quisquam ducimus corrupti pariatur laboriosam natus
+            sint, laudantium similique, amet fugiat facilis dolore mollitia.
+            Natus quos porro sed officiis?
+          </p>
+        </section>
+
+        <section class="side-content">
+          <div></div>
+          <p>Superman</p>
+          <img src="https://i.ibb.co/x16pz1x/super-man.png" alt="Superman" />
+        </section>
+        <section class="footer">
+          <div id="button1">
+            <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="" />
+          </div>
+          <div id="button2">
+            <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="" />
+          </div>
+          <div id="button3">
+            <img src="https://i.ibb.co/M18p91c/batman.webp" alt="" />
+          </div>
+        </section>
+      </section>
+
+      <!-- Loader -->
+      <section class="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+      <!-- Modal -->
+      <section class="modal hidden">
+        <div class="modal__content">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="100"
+            height="100"
+            viewBox="0 0 30 30"
+            class="modal__content__close"
+            style="color: aqua"
+          >
+            <path
+              d="M 7 4 C 6.744125 4 6.4879687 4.0974687 6.2929688 4.2929688 L 4.2929688 6.2929688 C 3.9019687 6.6839688 3.9019687 7.3170313 4.2929688 7.7070312 L 11.585938 15 L 4.2929688 22.292969 C 3.9019687 22.683969 3.9019687 23.317031 4.2929688 23.707031 L 6.2929688 25.707031 C 6.6839688 26.098031 7.3170313 26.098031 7.7070312 25.707031 L 15 18.414062 L 22.292969 25.707031 C 22.682969 26.098031 23.317031 26.098031 23.707031 25.707031 L 25.707031 23.707031 C 26.098031 23.316031 26.098031 22.682969 25.707031 22.292969 L 18.414062 15 L 25.707031 7.7070312 C 26.098031 7.3170312 26.098031 6.6829688 25.707031 6.2929688 L 23.707031 4.2929688 C 23.316031 3.9019687 22.682969 3.9019687 22.292969 4.2929688 L 15 11.585938 L 7.7070312 4.2929688 C 7.5115312 4.0974687 7.255875 4 7 4 z"
+            ></path>
+          </svg>
+          <div class="modal__content__slider">
+            <input type="radio" name="slider" id="radio-1" checked />
+            <input type="radio" name="slider" id="radio-2" />
+            <input type="radio" name="slider" id="radio-3" />
+
+            <div class="cards">
+              <label for="radio-1" id="card-1" class="card" >
+                <img src="https://static.platzi.com/media/public/uploads/spider-man_db8af43d-b692-4986-a385-e645d286e142.png" alt="spiderman-img1" />
+              </label>
+              <label for="radio-2" id="card-2" class="card">
+                <img src="https://static.platzi.com/media/public/uploads/spider-man-2_b24c96b3-6d59-496f-815d-32b25eba0141.png" alt="spiderman-img2" />
+              </label>
+              <label for="radio-3" id="card-3" class="card">
+                <img src="https://static.platzi.com/media/public/uploads/spider-man-3_19f5c510-8059-4477-abf8-42249a5445b7.png" alt="spiderman-img3" />
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
